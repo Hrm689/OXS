@@ -1,19 +1,43 @@
 {
   "expo": {
-    "name": "ON THE BEAT X STREAM",
+    "name": "OXS",
     "slug": "oxs-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo.png",
+    "icon": "./assets/covers/logo.png",
+    "scheme": "oxs",
+    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
       "package": "com.oxs.app",
       "versionCode": 1
-    }
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2d86eefb-0852-47b5-a668-933c0cbd72ce"
+      }
+    },
+    "sdkVersion": "53.0.0",
+    "platforms": [
+      "android"
+    ],
+    "owner": "hmateo2004"
   }
 }
