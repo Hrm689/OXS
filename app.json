@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "ON THE BEAT X STREAM",
+    "slug": "oxs-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.oxs.app",
+      "versionCode": 1
+    }
+  }
+}
